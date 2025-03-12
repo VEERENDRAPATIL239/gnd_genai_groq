@@ -1,11 +1,11 @@
 import streamlit as st
 from typing import Generator
 from groq import Groq
-st.title("veeru's ai chat bot")
+
 st.set_page_config(page_icon="💬", layout="wide",
                    page_title="PragyanAI Groq Streamlit APP")
 # Display the logo at the top of the page
-
+st.title("veeru's ai chat bot")
 st.divider()  # 👈 Draws a horizontal rule
 
 def icon(emoji: str):
