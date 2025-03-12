@@ -3,9 +3,8 @@ from typing import Generator
 from groq import Groq
 
 st.set_page_config(page_icon="💬", layout="wide",
-                   page_title="PragyanAI Groq Streamlit APP")
+                   page_title="VEERU'S Groq Streamlit APP")
 # Display the logo at the top of the page
-st.title("VEERU'S AI chat bot")
 st.divider()  # 👈 Draws a horizontal rule
 
 def icon(emoji: str):
@@ -18,7 +17,7 @@ def icon(emoji: str):
 
 #icon("🏎️")
 
-st.subheader("Groq Chat Streamlit App", divider="rainbow", anchor=False)
+st.subheader("VEERU'S Streamlit App", divider="rainbow", anchor=False)
 
 #GROQ_API_KEY = "your_groq_api_key_here"
 
