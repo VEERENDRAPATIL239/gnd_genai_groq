@@ -5,6 +5,7 @@ from groq import Groq
 st.set_page_config(page_icon="💬", layout="wide",
                    page_title="VEERU'S Groq Streamlit APP")
 # Display the logo at the top of the page
+st.title("VEERU'S AI CHAT BOT")
 st.divider()  # 👈 Draws a horizontal rule
 
 def icon(emoji: str):
